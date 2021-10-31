@@ -23,7 +23,7 @@ export const addFavorite = async (data) => {
 
 // GET: favorite movie
 export const getFavorite = async () => {
-  const request = await fetch("http://192.168.8.229:3000/api/movie/favorite", {
+  const request = await fetch(`${API_URL}`, {
     method: "GET",
     headers: {
       "Content-type": "application/json; charset=UTF-8",
