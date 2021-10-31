@@ -27,6 +27,7 @@ function Post({
           src={BASE_URL + img}
           height={1080}
           width={1920}
+          alt="img"
         />
         <div className="post__image-bottom">
           <div>
