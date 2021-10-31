@@ -1,4 +1,3 @@
-import react, { useEffect, useState } from "react";
 import { Avatar } from "@mui/material";
 import Image from "next/image";
 import { Favorite } from "@mui/icons-material";
